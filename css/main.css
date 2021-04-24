@@ -110,3 +110,24 @@ nav {
     font-size:1.3em;
     font-weight: 900;
 }
+
+.how h2{
+    text-align: center;
+    color:  #fa7344;
+    font-weight: 900;
+    font-size:1.9em;
+    margin-top: 50px;
+}
+
+.box {
+    display: flex; 
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.box img{
+    object-fit: contain;
+    width: 5em;
+    margin-right: 25px;
+}
+ 
