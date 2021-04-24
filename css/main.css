@@ -1,7 +1,7 @@
 *, :before, :after {box-sizing:border-box;}
 body{
     margin: 0;
-    
+    font-family: sans-serif;
 }
 img {
     max-width:100%;
@@ -11,6 +11,9 @@ nav {
     justify-content:space-between;
     padding: 30px;
     background : white;
+    position : fixed;
+    top: 0 ;
+    width: 100%
 }
 
 .menuImg {
@@ -42,16 +45,68 @@ nav {
     
 }
 .searchMenu{
-  background: linear-gradient(#B6F908,#07E71C);
+  background: linear-gradient(#C0DA38 60%,#74CC52);
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding-bottom: 20px;
 }
+
 .searchMenu h2{
  color: white;
- font-size: 5em;
- margin-top: 0;
+ font-size: 2.8em;
+ margin-top: 20px;
+ font-size: bolder;
+ padding: 20px 0 0 22px;
+ 
 }
 .searchMenu form{
     display: flex;
     flex-direction: column;
+}
+.searchMenu label {
+   padding :25px 50px;
+   background: white; 
+}
+
+.field1{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-bottom : 1px solid rgb(209, 206, 206);
+}
+
+.field2{
+    border-top : 1px solid rgb(209, 206, 206);
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+#loc{
+    font-size: 1.1em;
+    border: none;
+    background-image: url('/images/pin.svg');
+    background-size : contain;
+    background-repeat: no-repeat;
+    text-indent : 50px;
+}
+
+#bbq{
+    font-size: 1.1em;
+    border: none;
+    background-image: url('/images/bbq.svg');
+    background-size : contain;
+    background-repeat: no-repeat;
+    text-indent : 50px;
+}
+
+.find {
+    margin-top: 20px;
+    background-color: #fa7344 ;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 25px 40px;
+    font-size:1.3em;
+    font-weight: 900;
 }
