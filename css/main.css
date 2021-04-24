@@ -1,4 +1,11 @@
 *, :before, :after {box-sizing:border-box;}
+body{
+    margin: 0;
+    
+}
+img {
+    max-width:100%;
+}
 nav {
     display : flex;
     justify-content:space-between;
@@ -11,15 +18,40 @@ nav {
 }
 
 .menuImg img {
-    height: 6em;
-    margin-left : 30px
+    height: 2.5em;
+    margin-left : 15px
 }
 
 .masthead h1 img  {
-    width : 20em;
+    width : 10em;
+    
+}
+.masthead h1{
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .masthead p {
     margin-top : 0;
-    font-size : 2.5em
+    font-size : 1.2em;
+
+}
+.imgFromPlaceholder{
+    width: 100vw;
+    height: 30em;
+    
+}
+.searchMenu{
+  background: linear-gradient(#B6F908,#07E71C);
+  display: flex;
+  flex-direction: column;
+}
+.searchMenu h2{
+ color: white;
+ font-size: 5em;
+ margin-top: 0;
+}
+.searchMenu form{
+    display: flex;
+    flex-direction: column;
 }
