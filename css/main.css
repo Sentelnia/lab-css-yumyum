@@ -41,7 +41,7 @@ nav {
 }
 .imgFromPlaceholder{
     width: 100vw;
-    height: 30em;
+    height: 25em;
     
 }
 .searchMenu{
@@ -151,6 +151,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 1.5em;
 }
 
 .imgDishes{
@@ -206,13 +207,46 @@ nav {
 .rating{
     border-top : 1px solid  #F4F4EC;
     display: flex;
-    padding: 1.2em;
+    padding: 1.5em;
     font-size: 0.8em;
 }
 
 .rating span{
-    margin-left : 2em
+    margin-left : 3em
 }
 
+aside{
+    background:linear-gradient(#EB7144, #E74051 );
+    padding-bottom: 1em;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1em
+}
 
+.boxAside div{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    border-radius: 100%;
+    width: 6em;
+    padding: 1.5em;
+}
 
+.boxAside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1em 1em
+}
+
+.boxAside h3{
+    font-size: 1.4em;
+}
+
+.boxAside p{
+    font-size: 0.8em;
+}
