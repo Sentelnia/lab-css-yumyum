@@ -3,6 +3,8 @@ body{
     margin: 0;
     font-family: sans-serif;
 }
+
+/* nav */
 img {
     max-width:100%;
 }
@@ -39,6 +41,8 @@ nav {
     font-size : 0.7em;
 
 }
+
+/* partie avec le dégradé vert et jaune, + form */
 .imgFromPlaceholder{
     width: 100vw;
     height: 25em;
@@ -114,6 +118,8 @@ nav {
     font-weight: bolder;
 }
 
+/* how it works */
+
 .how h2, .dishes h2{
     text-align: center;
     color:  #fa7344;
@@ -147,6 +153,7 @@ nav {
     font-weight: lighter;
 }
 
+/* tout ce qui concerne les parties avec photo, restau et étoiles */
 .dishes{
     background-color: #F4F4EC;
     display: flex;
@@ -218,6 +225,7 @@ nav {
     margin-left : 3em
 }
 
+/* partie dégradée rose  */
 aside{
     background:linear-gradient(#EB7144, #E74051 );
     padding-bottom: 1em;
@@ -254,6 +262,7 @@ aside{
     font-size: 0.8em;
 }
 
+/* bannière */
 .banner{
     color:white;
     background-color: black;
@@ -264,6 +273,8 @@ aside{
     border-radius: 6px;
 }
 
+
+/* baniière 50% de reduction */
 .sales{
     position: relative;
 }
@@ -305,4 +316,45 @@ aside{
     top : 4.75em;
     left: -0.4em;
     transform: rotate(-90deg);
+}
+
+/* footer */
+
+.contacts{
+    padding : 2em 2em 0em 2em
+}
+
+.contacts article{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+}
+
+.contacts h3{
+ font-weight: bold;
+}
+
+.contacts a{
+    text-decoration: none;
+    color : #8a8888;
+    padding-top: 1em
+    
+}
+
+/* adress */
+.copy{
+    font-style:normal;
+    background-color: #F4F4EC;
+    padding : 1em;
+    
+}
+
+.copy a{
+    text-decoration: none;
+    color: black;
+    margin-right : 1.5em;
+}
+.copy p a{
+    color: #9fd67a;
+    margin-right : 0
 }
