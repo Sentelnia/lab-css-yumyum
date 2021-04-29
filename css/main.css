@@ -1,7 +1,12 @@
 *, :before, :after {box-sizing:border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap');
+html,
 body{
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3{
+    font-family: 'Intro'
 }
 
 /* nav */
@@ -106,6 +111,7 @@ nav {
 }
 
 .find {
+    font-family: 'Intro';
     margin-top: 1em;
     background-color: #fa7344 ;
     color: white;
@@ -253,7 +259,7 @@ aside{
 }
 
 .boxAside h3{
-    font-size: 1.4em;
+    font-size: 1.5em;
 }
 
 .boxAside p{
@@ -266,9 +272,10 @@ aside{
     background-color: black;
     font-size: 2em;
     font-weight: 900;
-    padding: 3.3em 0.2em;
+    padding: 3.3em 1em;
     text-align: center;
     border-radius: 6px;
+    font-family: 'Intro'
 }
 
 
