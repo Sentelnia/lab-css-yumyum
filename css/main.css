@@ -329,7 +329,7 @@ aside{
 }
 
 .contacts h3{
- font-weight: bold;
+    font-weight: bold;
 }
 
 .contacts a{
@@ -344,7 +344,7 @@ aside{
     font-style:normal;
     background-color: #F4F4EC;
     padding : 1em;
-    
+    font-size: 0.8em
 }
 
 .copy a{
