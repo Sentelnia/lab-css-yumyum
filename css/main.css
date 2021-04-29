@@ -13,8 +13,6 @@ nav {
     justify-content:space-between;
     padding: 1em;
     background : white;
-    position : fixed;
-    top: 0 ;
     width: 100%;
 }
 
@@ -274,7 +272,7 @@ aside{
 }
 
 
-/* baniière 50% de reduction */
+/* banière 50% de reduction */
 .sales{
     position: relative;
 }
