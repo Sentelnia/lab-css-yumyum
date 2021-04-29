@@ -118,8 +118,9 @@ nav {
     text-align: center;
     color:  #fa7344;
     font-weight: bolder;
-    font-size: 1.9em;
+    font-size: 2em;
     margin-top: 2em;
+    padding: 0 1em
 }
 
 .box {
@@ -156,7 +157,7 @@ nav {
 
 .imgDishes{
     width: 100%;
-    height:11em;
+    height:12em;
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
     margin-bottom: 1.1em;
@@ -261,4 +262,47 @@ aside{
     padding: 3.3em 0.2em;
     text-align: center;
     border-radius: 6px;
+}
+
+.sales{
+    position: relative;
+}
+.sale{
+    display: flex;
+    justify-content:center;
+    color: white;
+    position: absolute;
+    top: 1.2em;
+    left: -2.1em;
+    transform: rotate(-45deg);
+    font-size: 0.9em;
+    font-weight: bold;
+    border-bottom: 1.8em solid #fa7344;
+    border-left  : 1.8em solid transparent; 
+    border-right : 1.8em solid transparent;
+    height : 1.5em;
+    width  : 8.3em;
+}
+.sale p{
+    padding: 0;
+}
+
+.effect1 {
+    position: absolute;
+    width  : 0em;
+    height : 0em;
+    border : 0.2em solid transparent;
+    border-bottom : 0.2em solid #ee3d02;
+    top : -0.4em;
+    left: 4.8em;
+}
+.effect2{
+    position: absolute;
+    width  : 0em;
+    height : 0em;
+    border : 0.2em solid transparent;
+    border-bottom : 0.3em solid #ee3d02;
+    top : 4.75em;
+    left: -0.4em;
+    transform: rotate(-90deg);
 }
